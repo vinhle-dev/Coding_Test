@@ -45,8 +45,8 @@ The JAR file will be located in the target/ directory:
 
 ## 📝 Notes
 
-While implementing the program, I used ChatGPT to help me write this Readme document. I also used ChatGPT to find better optimization methods for the program after it was completed.
-Initially, I used a single-threaded approach to implement the solution and make it work. Then, I applied multi-threading to improve the performance of the algorithm. The algorithm can still be further optimized by changing the word search method, for example, by creating predefined letter patterns that match the length, which would help find words faster instead of scanning from a-z. However, due to time constraints, I decided not to pursue this approach.
+* While implementing the program, I used ChatGPT to help me write this Readme document. I also used ChatGPT to find better optimization methods for the program after it was completed.
+* Initially, I used a single-threaded approach to implement the solution and make it work. Then, I applied multi-threading to improve the performance of the algorithm. The algorithm can still be further optimized by changing the word search method, for example, by creating predefined letter patterns that match the length, which would help find words faster instead of scanning from a-z. However, due to time constraints, I decided not to pursue this approach.
 
 ## Contributing
 

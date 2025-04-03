@@ -12,8 +12,8 @@ A brief description of what this project does and who it's for
 * Clone the project
 
 ```bash
-  git clone <url>
-  cd <name>
+  git clone https://github.com/vinhle-dev/Coding_Test.git
+  cd Coding_Test
 ```
 
 * Build and create the JAR
@@ -25,13 +25,13 @@ A brief description of what this project does and who it's for
 The JAR file will be located in the target/ directory:
 
 ```bash
-  target/<project>-Demo.jar
+  target/Coding_Test-Demo.jar
 ```
 
 * Run the application
 
 ```bash
-  java -jar target/<project>-Demo.jar
+  java -jar target/Coding_Test-Demo.jar
 ```
 ## 🧠 Algorithm Explanation
 
@@ -39,6 +39,9 @@ To guess the correct word, the algorithm follows these main steps:
 
 
 ## 📝 Notes
+
+
+
 ## Contributing
 
 Contributions are always welcome!

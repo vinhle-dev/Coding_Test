@@ -16,7 +16,7 @@ public class Main {
         LOGGER.info("1. Guess word with the length");
         LOGGER.info("2. Guess random word");
         Scanner scanner = new Scanner(System.in);
-        int option = 0;
+        int option;
         int length = 0;
         boolean isValidOption = false;
         while (!isValidOption) {

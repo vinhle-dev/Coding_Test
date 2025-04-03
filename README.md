@@ -35,12 +35,17 @@ The JAR file will be located in the target/ directory:
 ```
 ## 🧠 Algorithm Explanation
 
-To guess the correct word, the algorithm follows these main steps:
+The algorithm consists of two main steps:
 
+1. First, based on the length of the word, the algorithm will try to sequentially take characters from a-z. For example, if the length is 3, the words used for guessing will be abc, def, etc. The goal is to scan the entire alphabet and find the characters present in the target word as quickly as possible.
+
+2. From the list of characters found in step 1, the algorithm will take these characters and replace the positions where the correct character has not been found to determine the exact position of the character.
+
+3. After completing step 2, the algorithm will have identified the target word.
 
 ## 📝 Notes
 
-
+While implementing the program, I used ChatGPT to help me write this Readme document. I also used ChatGPT to find better optimization methods for the program after it was completed.
 
 ## Contributing
 

@@ -13,8 +13,8 @@ public class Main {
     public static void main(String[] args) {
         LOGGER.info("Welcome to the Wordle game!");
         LOGGER.info("Choose options to start the game: ");
-        LOGGER.info("1. Guess word with the length");
-        LOGGER.info("2. Guess random word");
+        LOGGER.info("1. Guess the word with a determined length");
+        LOGGER.info("2. Guess the random word");
         Scanner scanner = new Scanner(System.in);
         int option;
         int length = 0;
@@ -23,12 +23,12 @@ public class Main {
             option = scanner.nextInt();
 
             if (option == 1) {
-                LOGGER.info("Enter the length of word to start: ");
+                LOGGER.info("Enter the length of the word to start: ");
                 boolean isLengthValid = false;
                 while (!isLengthValid) {
                     length = scanner.nextInt();
                     if (length < 0 || length > 22) {
-                        LOGGER.info("Invalid length: The length of the word must be in range 1-22");
+                        LOGGER.info("The length of the word must be between 1 and 22");
 
                     } else {
                         isLengthValid = true;
@@ -44,7 +44,7 @@ public class Main {
                 isValidOption = true;
 
             } else {
-                LOGGER.info("Invalid option: Please choose 1 or 2!");
+                LOGGER.info("Please choose 1 or 2");
             }
         }
 
